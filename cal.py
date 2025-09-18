@@ -21,4 +21,5 @@ if st.button("start caculate"):
       result=num1/num2
       st.success(f"your answer:{result}")
      else:
-        st.error("Dision by zero is not allowed")
+
+        st.error("divison by zero is not allowed")
