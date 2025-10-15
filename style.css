@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background-color:white;
+    color:black;
+}
+header{
+    background-color:yellow;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    width:100%;
+    padding: 20px 40px;
+    position: sticky;
+    top:0;
+}
+.logo{
+    color:blue;
+    font-size: 35px;
+    padding-right: 150px;
+
+    
+    
+}
+
+
+.ms{
+    height: 70px;
+}
+.boat{
+    height: 300px;
+    width: 300px;
+    padding-top: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 50px;
+    gap: 30px;
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    color:red;
+}
+
+.product-container {
+display: grid;
+grid-template-columns: auto-fit,minax(220px,1fr);
+gap:20px;
+max-width:950px;
+margin: auto;
+}
+.button{
+    background-color:white;
+    color:black;
+    border-radius: 15px;
+    width:50%;
+}
+.buy{
+    background-color: yellow;
+    border-radius: 20px;
+    width:50%;
+}
+.quantity lable{
+color:red;
+font-weight: 600;
+margin-top: 10px;
+}
+.color lable{
+font-weight: 600;
+color:red;
+
+}
+
+.boult{
+    width:200px;
+    height:200px;
+}
+.space{
+    padding-top: 30px;
+}
